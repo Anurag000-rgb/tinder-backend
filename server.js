@@ -17,7 +17,7 @@ mongoose.connect(connection_url, {
 })
 
 app.get('/', (req, res) => {
-    res.status(200).send('Hello World!!!')
+    res.status(200).send('Hey it is the backend server of tinder MERN stack; visit -->!!!')
 })
 
 app.post('/tinder/card', (req, res) => {
